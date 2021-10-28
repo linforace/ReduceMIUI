@@ -7,9 +7,7 @@
 ######  特点：在不影响正常功能情况下尽可能精简系统进程
 ###### Features: Streamline system processes as much as possible without affecting normal functions
 
-[下载地址Download(Releases)](https://github.com/l2642235863/ReduceMIUI/releases)
 
-[作者酷安主页(@雄氏老方)](http://www.coolapk.com/u/665894)
 
 ##### 主要功能 Function：
 
