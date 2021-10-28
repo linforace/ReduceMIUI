@@ -2,88 +2,134 @@
 # 这么做的好处是: 即使之后MIUI版本变更了/system/*路径，依然能准确获取其位置。
 # 之后的版本我会尽可能添加应用的用途，以明确精简某些应用有什么风险
 #====================================================
+#小米账号
+com.xiaomi.account
+#小米云服务
+com.miui.cloudservice
+# MICloudSync
+com.miui.micloudsync
+#桌面云备份
+com.miui.cloudbackup
+# 小米指南针
+com.miui.compass
+#系统服务组件
+com.miui.securityadd
+#安全核心组件
+com.miui.securitycore
+#推送服务（两个，没任何影响）/system/app/WMService 
+com.miui.wmsvc
+#常用词（无任何影响）/system/app/FrequentPhrase 
+com.miui.phrase
+# SIM日志（无用）/system/app/SimAppDialog
+com.android.simappdialog
+# 投屏服务
+com.qualcomm.wfd.service
+# 卡拉OK
+com.miui.audiomonitor
+# 小米云服务系统基础
+com.miui.cloudservice.sysbase  
+# AI虚拟助手
+com.xiaomi.aiasst.vision
+# OTRP 协议协商程序（物联网）
+com.xiaomi.otrpbroker
+# 小米云翻译
+com.miui.translation.xmcloud
+##游戏高能时刻
+com.xiaomi.migameservice
+#自动连招
+com.xiaomi.macro
+#浏览器
+com.android.browser
+#应用程序扩展服务
+com.miui.contentcatcher
+#米币支付
+com.xiaomi.payment
+#小米支付
+com.miui.nextpay
+#OOBhelper
+com.xiaomi.oobhelper
+#Joyose
+com.xiaomi.joyose
+#SoterService
+com.tencent.soter.soterserver
+#====================================================
+
 # USIM卡应用 ps：在某些机型上，精简该应用可能会导致信号差或者双卡功能受影响
-#com.android.stk
+com.android.stk
 
 # 2021/10/08新增
-# 1.谷歌商店
-#com.android.vending
-# 2.谷歌服务
-#com.google.android.gms
-# 3.谷歌服务框架
-#com.google.android.gsf
 # 4.谷歌服务相关
-#com.google.android.onetimeinitializer
+com.google.android.onetimeinitializer
 
 # 2021/09/27新增
 # 1.小爱同学
-#com.miui.voiceassist
+com.miui.voiceassist
 # 2.语音唤醒
-#com.miui.voicetrigger
+com.miui.voicetrigger
 # 3.AI虚拟助手
-#com.xiaomi.aiasst.service
+com.xiaomi.aiasst.service
 # 4.投屏
-#com.milink.service
+com.milink.service
 # 5.投屏服务
-#com.xiaomi.miplay_client
+com.xiaomi.miplay_client
 # 6.MiuiDaemon 水龙ps: miui性能守护程序，跟官方内核配套用的。
-#com.miui.daemon
+com.miui.daemon
 # 7.小米钱包
-#com.mipay.wallet
+com.mipay.wallet
 #
 # 2021/09/25新增 (来自老阿巴的说明: 不影响系统 可按需精简 已预先加入＃)
 # 1.日志抓取
-#com.bsp.catchlog
+com.bsp.catchlog
 # 2.小米SIM卡激活服务 #(!)警告:精简后无法云同步短信/通话记录/密码管家
-#com.xiaomi.simactivate.service
+com.xiaomi.simactivate.service
 # 3.小米互联通信服务 和MIUI+相关联
-#com.xiaomi.mi_connect_service
+com.xiaomi.mi_connect_service
 # 4.MIUI+
-#com.xiaomi.mirror
+com.xiaomi.mirror
 # 5.用户反馈
-#com.miui.bugreport
+com.miui.bugreport
 # 6.快应用
-#com.miui.hybrid
-#com.miui.quickappCenter.miAppStore
-#com.miui.hybrid.accessory
+com.miui.hybrid
+com.miui.quickappCenter.miAppStore
+com.miui.hybrid.accessory
 # 7.Google通讯录
-#com.google.android.syncadapters.contacts
+com.google.android.syncadapters.contacts
 # 8.Google 通讯录备份
-#com.android.calllogbackup
+com.android.calllogbackup
 # 9.万象息屏
 #com.miui.aod
 # 10.小米互传
-#com.miui.mishare.connectivity
+com.miui.mishare.connectivity
 # 11.NFC
 #com.android.nfc
 # 12.小米智能卡
-#com.miui.tsmclient
+com.miui.tsmclient
 # 13.悬浮球
-#com.miui.touchassistant
+com.miui.touchassistant
 # 14.小米音乐
-#com.miui.player
+com.miui.player
 # 15.CIT
-#com.miui.cit
+com.miui.cit
 # 16.MODEM测试工具
-#com.xiaomi.mtb
+com.xiaomi.mtb
 # 17.传送门
 #com.miui.contentextension
 # 18.内容中心
-#com.miui.newhome
+com.miui.newhome
 # 19.生活黄页(精简后可能无法获取来电地址)
-#com.miui.yellowpage
+com.miui.yellowpage
 # 20.搜索
-#com.android.quicksearchbox
+com.android.quicksearchbox
 # 21.维修模式
-#com.miui.maintenancemode
+com.miui.maintenancemode
 # 22.小米安全键盘
-#com.miui.securityinputmethod
+com.miui.securityinputmethod
 # 23.小米闻声
-#com.miui.accessibility
+com.miui.accessibility
 # 24.用户手册
-#com.miui.userguide
+com.miui.userguide
 # 25.智能助理
-#com.miui.personalassistant
+com.miui.personalassistant
 #====================================================
 # 以下为默认精简内容
 #Analytics
@@ -153,11 +199,11 @@ com.qualcomm.qti.qcolor
 
 #/system/priv-app/MusicFX
 #MusicFX(音频均衡器/控制器) [!] ps: 不建议精简
-#com.android.musicfx
+com.android.musicfx
 
 #/system/*/MiGameCenterSDKService
 #游戏服务 [!] ps: 不建议精简，因为部分游戏是小米账号登陆的，如果没有自带的游戏服务，是登陆不上游戏的，反而在精简掉之后还依然需要下载回游戏服务才能进行登陆。
-#com.xiaomi.gamecenter.sdk.service
+com.xiaomi.gamecenter.sdk.service
 
 #/system/*/*/PerformanceMode
 #性能模式 [!] ps: 游戏玩家还是不要精简吧😳
