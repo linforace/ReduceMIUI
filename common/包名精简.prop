@@ -52,7 +52,7 @@ com.xiaomi.oobhelper
 com.xiaomi.joyose
 #不能冻结，冻结后微信无法使用指纹支付
 #SoterService
-com.tencent.soter.soterserver
+#com.tencent.soter.soterserver
 #====================================================
 
 # USIM卡应用 ps：在某些机型上，精简该应用可能会导致信号差或者双卡功能受影响
