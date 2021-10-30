@@ -50,6 +50,7 @@ com.miui.nextpay
 com.xiaomi.oobhelper
 #Joyose
 com.xiaomi.joyose
+#不能冻结，冻结后微信无法使用指纹支付
 #SoterService
 com.tencent.soter.soterserver
 #====================================================
